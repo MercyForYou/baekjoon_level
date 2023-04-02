@@ -9,7 +9,7 @@ int main()
 	for (i = 0; i < T; i++)
 	{
 		scanf("%d %s", &R, S);
-		for (j = 0; j < R; j++)
+		for (j = 0; S[j] != '\0'; j++)
 		{
 			for (k = 0; k < R; k++)
 			{
